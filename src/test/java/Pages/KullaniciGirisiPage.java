@@ -46,3 +46,10 @@ public class KullaniciGirisiPage {
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
 }
+
+// Sisteme ait gercek bir kullanici adi ve sifre bilgim olmadigindan PozitiveTest adimlarindan sonra sayfanin yonlendirme kontrol testi yazilmamistir.
+// PozitiveTest senaryosunun dogru sonuc vermesi için gercek kullanici bilgilerine ihtiyac vardır.
+// Gercek verilerle test yapilirken asagidaki kodlarin eklenmesi gerekir.
+// WebElement girisKontrol = driver.findElement(girisTitle);
+// String girisTitleText = girisKontrol.getText();
+// assertEquals(girisTitleText, "Sayfanin title bilgisi);

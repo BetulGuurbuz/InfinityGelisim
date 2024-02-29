@@ -52,4 +52,4 @@ public class KullaniciGirisiPage {
 // Gercek verilerle test yapilirken asagidaki kodlarin eklenmesi gerekir.
 // WebElement girisKontrol = driver.findElement(girisTitle);
 // String girisTitleText = girisKontrol.getText();
-// assertEquals(girisTitleText, "Sayfanin title bilgisi);
+// assertEquals(girisTitleText, "Sayfanin title bilgisi");

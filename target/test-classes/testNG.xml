@@ -1,0 +1,8 @@
+<suite name = "Infinity Gelisim" >
+    <parameter name ="browser" value ="Edge" />
+    <test name="Infinity" >
+        <classes>
+            <class name ="testRunners.runner" />
+        </classes>
+    </test>
+</suite>
